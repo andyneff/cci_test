@@ -5,7 +5,7 @@ workflows:
   nothing:
     jobs:
       - welcome/run
-          filter:
+          filters:
             branches:
               ignore:
                 - .*
